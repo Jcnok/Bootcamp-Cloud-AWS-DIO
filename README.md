@@ -26,20 +26,20 @@ Ao executar o script, o usuário será informado que os usuários, grupos e dire
 2. Navegue até a pasta scripts e dê a permissão de execução com comando - root@DESKTOP-DS:/home/clone/Bootcamp-Cloud-AWS-DIO/scripts# _chmod +x ./iac.sh remove.sh_
 3. execute o arquivo: _./iac.sh_
 
-<img src="./images/create.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="./images/create.png" align='center' alt="drawing" width="600" heigth="250"/>
 
 4. Conferindo os usuários criados:  _cat /etc/passwd_
 
-<img src="./images/users_check.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="./images/users_check.png" align='center' alt="drawing" width="600" heigth="250"/>
 
 5. Conferindo os Grupos criados:  _cat /etc/group_
 
-<img src="./images/group_check.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="./images/group_check.png" align='center' alt="drawing" width="600" heigth="250"/>
 
 6. Conferindo os Diretórios criados:_ls /home -l_
 
-<img src="./images/dir_check.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="./images/dir_check.png" align='center' alt="drawing" width="600" heigth="250"/>
 
 7. Por fim, usando o script remove.sh para remover tudo o que foi realizado:_./remove.sh_
 
-<img src="./images/remove_all.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="./images/remove_all.png" align='center' alt="drawing" width="600" heigth="250"/>
