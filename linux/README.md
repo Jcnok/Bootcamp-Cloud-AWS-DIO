@@ -10,10 +10,10 @@
 
 ## Desafios:
 
-* Infraestrutura como código: [Stript de criação de estrutura de ususários, diretórios e Permissões]()
-* Infraestrutura como código - [script de Provisionamento de um servidor web(apache)]()
+* Infraestrutura como código: [Stript de criação de estrutura de ususários, diretórios e Permissões](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/linux/desafio_iac1#bootcamp-cloud-aws-dio)
+* Infraestrutura como código - [script de Provisionamento de um servidor web(apache)](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/linux/desafio_iac2#bootcamp-cloud-aws-dio)
 
-
+[Voltar](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO#bootcamp-cloud-aws---dio)
 
 ## Agradecimentos
 
