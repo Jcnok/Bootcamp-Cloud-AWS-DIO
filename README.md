@@ -20,8 +20,8 @@
 
 ## Conhecendo o Sistema Operaciona Linux:
 
-* Desafio 1: IaC - [Stript de criação de estrutura de ususários, diretórios e Permissões]()
-* Desafio 2: IaC - [script de Provisionamento de um servidor web(apache)]()
+* Desafio 1: IaC - [Stript de criação de estrutura de ususários, diretórios e Permissões](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/linux/desafio_iac1#bootcamp-cloud-aws-dio)
+* Desafio 2: IaC - [script de Provisionamento de um servidor web(apache)](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/linux/desafio_iac2#bootcamp-cloud-aws-dio)
 
 ## AWS Foundations:
 
