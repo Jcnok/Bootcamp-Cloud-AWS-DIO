@@ -1,45 +1,33 @@
-# Bootcamp-Cloud-AWS-DIO
+# BootCamp Cloud AWS - DIO
 
-## Desafio de Infraestrutura como Código (IaC)
+**Este é o primeiro programa AWS - Amazon Web Services - em parceria com a DIO, composto por 73 horas de conteúdo que vai do básico até o preparatório para certificações. A trilha é composta por cursos exclusivos AWS e mentorias ao vivo com experts certificados pela plataforma. Uma grande oportunidade de conhecer as certificações AWS e ter destaque no currículo.**
 
-Este é um projeto de automação de infraestrutura com shell script, onde iremos criar um script que será responsável por criar usuários, grupos de usuários, diretórios e definir permissões de acesso. Todo o processo será automatizado, o que vai facilitar bastante o gerenciamento de uma nova máquina virtual.
+## Ementa do bootcamp:
 
-## Descrição do Projeto
+* 34 cursos
+* 4 desafios de projeto
+* 1 live
 
-O objetivo deste projeto é automatizar o processo de criação de usuários, grupos de usuários e diretórios em um sistema operacional Linux. Para isso, iremos utilizar dois arquivos shell script: iac.sh e remove.sh. O primeiro arquivo será responsável por criar usuários, grupos, diretórios e definir as permissões de acesso, enquanto o segundo arquivo será responsável por remover todos os procedimentos realizados.
+## Prepare-se para a Jornada:
 
-## Documentação do código referente ao script iac.sh:
+* Prepare-se Para a Jornada(5 atividades)
+* Conhecendo o Sistema Operaciona Linux(13 atividades)
+* AWS Foundations(12 atividades)
+* Segurança, Monitoramento e Suporte na AWS(5 atividades)
+* Preparatório para Certificação AWS Cloud Practitioner(4 atividades)
 
-Na primeira parte do código, são criados três grupos: financeiro, vendas e desenvolvimento. Em seguida, são criados 9 usuários, sendo que 3 são adicionados ao grupo financeiro, 3 ao grupo vendas e 3 ao grupo desenvolvimento. Para criar os usuários, é utilizado o comando "useradd", que permite a criação de novos usuários no sistema. É importante destacar que cada usuário criado recebe uma senha criptografada gerada pelo comando "openssl passwd -crypt", que recebe como parâmetro a senha em texto claro.
+## Abaixo estão os links dos desafios de projetos concluídos.
 
-Após a criação dos usuários, é feita a adição dos usuários aos grupos correspondentes, utilizando o comando "usermod". Em seguida, são criados diretórios para cada grupo, utilizando o comando "mkdir", e definidos os proprietários dos diretórios, utilizando o comando "chown". Por fim, são definidas as permissões de acesso aos diretórios, utilizando o comando "chmod". O diretório "publico" recebe permissão total de acesso para todos os usuários.
+## Conhecendo o Sistema Operaciona Linux:
 
-## Documentação do código referente ao script remove.sh:
+* Desafio 1: IaC - [Stript de criação de estrutura de ususários, diretórios e Permissões]()
+* Desafio 2: IaC - [script de Provisionamento de um servidor web(apache)]()
 
-Esse código é responsável por remover os usuários, grupos e diretórios criados pelo código anterior. Para isso, ele utiliza os comandos userdel para remover os usuários, groupdel para remover os grupos e rm -Rf para remover os diretórios de forma recursiva e forçada.
+## AWS Foundations:
 
-Ao executar o script, o usuário será informado que os usuários, grupos e diretórios serão removidos e, em seguida, todo o processo será realizado automaticamente.
+* Desafio: [Infraestrutura como Código com Serverless Framework na AWS]() - em conclusão
 
-## Como executar o script:
+## Segurança, Monitoramento e Suporte na AWS:
 
-1. Faça o clone desse repositófio -  root@DESKTOP-DS:/home/clone# _git clone https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO.git_
-2. Navegue até a pasta scripts e dê a permissão de execução com comando - root@DESKTOP-DS:/home/clone/Bootcamp-Cloud-AWS-DIO/scripts# _chmod +x ./iac.sh remove.sh_
-3. execute o arquivo: _./iac.sh_
+* Desafio: [Adicionando Segurança em APIs na AWS com Amazon Cognito]() - em conclusão
 
-<img src="./images/create.png" align='center' alt="drawing" width="600" heigth="250"/>
-
-4. Conferindo os usuários criados:  _cat /etc/passwd_
-
-<img src="./images/users_check.png" align='center' alt="drawing" width="600" heigth="250"/>
-
-5. Conferindo os Grupos criados:  _cat /etc/group_
-
-<img src="./images/group_check.png" align='center' alt="drawing" width="600" heigth="250"/>
-
-6. Conferindo os Diretórios criados:_ls /home -l_
-
-<img src="./images/dir_check.png" align='center' alt="drawing" width="600" heigth="250"/>
-
-7. Por fim, usando o script remove.sh para remover tudo o que foi realizado:_./remove.sh_
-
-<img src="./images/remove_all.png" align='center' alt="drawing" width="600" heigth="250"/>
