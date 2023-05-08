@@ -1,0 +1,6 @@
+# package directories
+/desafio-aws-serverless/node_modules
+/desafio-aws-serverless/jspm_packages
+
+# Serverless directories
+/desafio-aws-serverless/.serverless
