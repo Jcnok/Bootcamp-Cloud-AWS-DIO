@@ -10,7 +10,7 @@ const fetchItems = async (event) => {
 
     try {
         const results = await dynamodb.scan({
-            TableName: "ItemTable"
+            TableName: "ItemTableNew"
         }).promise();
 
         items = results.Items;
