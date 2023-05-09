@@ -1,5 +1,7 @@
 # Desafio de Projeto: Infraestrutura em Nuvem AWS com Serverless
 
+![img](images/roadmap.png)
+
 ## Sobre:
 
 Este projeto tem como objetivo criar uma infraestrutura em nuvem na AWS utilizando o framework Serverless e práticas de Infraestrutura as a Code. Serão utilizados serviços como API Gateway, DynamoDB e AWS Lambda.
