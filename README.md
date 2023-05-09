@@ -25,7 +25,7 @@
 
 ## AWS Foundations:
 
-* Desafio: [Infraestrutura como Código com Serverless Framework na AWS]() - em conclusão
+* Desafio: [Infraestrutura como Código com Serverless Framework na AWS](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/desafio-aws-serverless#desafio-de-projeto-infraestrutura-em-nuvem-aws-com-serverless)
 
 ## Segurança, Monitoramento e Suporte na AWS:
 
