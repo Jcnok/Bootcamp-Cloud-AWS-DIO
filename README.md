@@ -29,5 +29,5 @@
 
 ## Segurança, Monitoramento e Suporte na AWS:
 
-* Desafio: [Adicionando Segurança em APIs na AWS com Amazon Cognito]() - em conclusão
+* Desafio: [Adicionando Segurança em APIs na AWS com Amazon Cognito](https://github.com/Jcnok/Bootcamp-Cloud-AWS-DIO/tree/main/desafio-aws-cognito#desafio-de-projeto-adicionando-seguran%C3%A7a-em-apis-na-aws-com-amazon-cognito)
 
